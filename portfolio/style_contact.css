@@ -1,0 +1,128 @@
+.logo {
+    padding: 5px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.title_image {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: darkslategrey;
+    padding: 0;
+}
+
+.voorpag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: darkslategrey;
+    padding: 8px;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+    opacity: 0, 8;
+    font-family: "Lucida Console";
+    color: white;
+}
+
+.contact {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.kopjes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+
+.social_media {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+a:hover:not(.instagram, .facebook, .twitter, .tiktok) {
+    color: black;
+}
+
+.instagram:hover {
+    color: #e89b37;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.tiktok:hover {
+    color: #ff0050;
+}
+
+input:not(.knop) {
+    background-color:#3b5998;
+    color: white;
+    font-family: "Lucida Console";
+}
+
+::placeholder {
+    background-color: #3b5998;
+    color: white;
+}
+
+.knop {
+    border: none;
+    background-color: #3b5998;
+    color: white;
+    font-family: "Lucida Console"
+}
+
+.knop:hover {
+    background-color: #263961;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px;
+}

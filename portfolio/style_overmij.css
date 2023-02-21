@@ -1,0 +1,98 @@
+.logo {
+    padding: 5px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.title_image {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: darkslategrey;
+}
+
+.voorpag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: darkslategrey;
+    padding: 8px;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+    opacity: 0,8;
+    font-family: "Lucida Console";
+    color: white;
+   }
+
+.about_me {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.kopjes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.inpak {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 100% 15%;
+    border-radius: 10px;
+}
+
+.gf {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cosplay {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 100% 40%;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link
+{
+    color:#FFFFFF;
+}
+
+a:visited
+{
+    color:#FFFFFF;
+}
+
+a:hover 
+{
+    color:  black;
+}
