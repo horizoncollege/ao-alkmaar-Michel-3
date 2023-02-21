@@ -50,3 +50,7 @@ td.color {
     flex-direction: row;
     justify-content: center;
 }
+.head1 {
+    display: flex;
+    justify-content: center;
+}
